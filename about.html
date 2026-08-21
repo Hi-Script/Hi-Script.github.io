@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="nav.css" rel="stylesheet">
+        <link rel="SHORTCUT ICON" type="image/x-icon" href="logo.png">
+        <title>HiScript - Official Home Page
+        A home of opportunities
+        </title>
+        
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <img src="logo.png" alt="logo" width="70px" height="70px">
+                <a class="navbar-brand" href="index.html">HiScript</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                       <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                            data-bs-toggle="dropdown" aria-expanded="false" 
+                            >Services</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="custom.html" target="_blank" style=" font-style: inherit; font-size: xx-small;">Custom Tech Solutions</a></li>
+                            <li><a class="dropdown-item" href="course.html" target="_blank" style=" font-style: inherit; font-size: xx-small;">Courses</a></li>
+                            <li><a class="dropdown-item"  onclick="signUp()" style=" font-style: inherit; font-size: xx-small;">Starter Kits & Templates</a></li>
+                            
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="book.html">Contact us</a>
+                        </li>
+
+                        
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            
+            </div>
+
+        </nav>
+
+        <!--content-->
+        <main>
+            <div class="col-md-12" id="navc">
+        
+                <div class="container-fluid-py-5">
+            
+                
+                    <p class="col-md-8 fs-4" style="margin-top: 0px; color: aliceblue;"><br>
+                        <br><br><br><br><br><br>
+                        <center>
+                        <h1 class="display-5 fw-bold" style=" color: rgb(208, 245, 2); ">Empowering </h1>
+                        <span style= " color: rgb(254, 255, 250);"> Our mission is to  empower beginners, students, and 
+                            entrepreneurs through coding 
+                            tutorials, digital products, and freelance web solutions.</span></center
+                    </p>
+                    >
+                </div>
+                        
+                    
+                
+            </div>	
+            
+            
+            <div class="a-example-divider"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 themed-grid-col">
+                        <h4>Our company</h4>
+                        <p>Stay informed about HiScript – from company facts and news
+                            to our worldwide locations and more,Virtually
+                            everythings</p>
+                    </div>
+                    <div class="col-sm-3 themed-grid-col"><h4>Who we are</h4>
+                        <p>HiScript is an all-in-one Technology platform for humanity.
+                            Our services target every living being.</p>
+                    </div>
+                    <div class="col-sm-3 themed-grid-col"><h4>What we value</h4>
+                        <p>Virtually humanity at large,thats why our services 
+                            target both reach and poor,young and old,white and black.
+                        </div>
+                    <div class="col-sm-3 themed-grid-col"><h4>Contact us</h4>
+                        <p>Get in touch. We’re here to help.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="container w-100 m-auto"  >
+                <div class="row">
+                    <div class="col-12-text-center">
+                    <form action="https://formspree.io/f/xanbnzyd" method="POST">
+                            <center>
+                            <h1 class="h3 mb-3 fw-normal">Contact Us</h1></center>
+
+                            
+
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingPassword" placeholder="email">
+                                <label for="floatingPassword">Your Email</label>
+                            </div>
+
+                            <div class="mb-3"><br>
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+
+                        
+
+                            <button class="btn btn-primary w-100 py-2" type="submit" onclick="thankYou()">
+                                Send us a message
+                            </button>
+                            
+
+                        </form> 
+                    </div>
+                </div>
+            </div>
+            <div class="a-example-divider"></div>
+
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-6 themed-grid-col text-center">
+                        <img src="images/austin.jpg" alt="austin.jpg" width="300" height="300" 
+                        style="margin-top: 100px;">
+            
+                    </div>
+
+                    <div class="col-md-6 themed-grid-col text-center">
+                        <img src="images/manaj.jpg" alt="austin.jpg" width="300" height="300"
+                        style="margin-top: 100px;">
+                    </div>
+                    
+                </div>
+                        
+                
+            </div>
+
+         
+        
+            <!-- Footer -->
+            <footer class="footer">
+                <p>Ready to Learn or Launch? 👇</p>
+                <a href="course.html" class="btn btn-outline-light">Start Learning</a>
+                <a href="book.html" class="btn btn-light">Hire Me</a>
+                <p class="mt-3">© 2025 Hiscript</p>
+                
+                <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" style="text-decoration: none;">Privacy</a></li>
+                <li class="list-inline-item"><a href="#" style="text-decoration: none;">Terms</a></li>
+                <li class="list-inline-item"><a href="#" style="text-decoration: none;">Support</a></li>
+                </ul>
+
+                
+                <div class="social">
+                    
+                <a href="#" target="_blank"><img src="images/fso.png" height="20" width="20"></a>
+
+                <a href="#" target="_blank"><img src="images/social (2).png" height="20" width="20"></a>
+
+                <a href="#" target="_blank"><img src="images/social (3).png" height="20" width="20"></a>
+
+                <a href="#" target="_blank"><img src="images/social (4).png" height="20" width="20"></a>
+
+                <a href="#" target="_blank"><img src="images/social (5).png" height="20" width="20"></a>
+
+                </div>
+            </footer>
+        </main>
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="book.js"></script>
+    </body>
+</html>
